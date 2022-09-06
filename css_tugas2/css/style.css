@@ -1,0 +1,79 @@
+/* Navbar */
+.topnav {
+	background-color: #B1EAE8;
+}
+
+.topnav a {
+	color: #107A92;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: #E4DFCF;
+	color: #7A7D68;
+}
+
+/* END OF Navbar */
+
+/* Content */
+p{
+	color: #107A92;
+}
+
+a{
+	text-decoration: none;
+	color: #107A92;
+}
+
+h3,h4{
+	color: #7A7D68;
+}
+
+ul li{
+	color:#107A92
+}
+
+ol {
+
+	padding: 0;
+	max-width: 100%;
+}
+
+/* List element */
+ol li {
+	counter-increment: index;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #7A7D68;
+}
+
+
+/* Element counter */
+ol li::before {
+	content: counters(index, ".");
+	font-size: 1.4rem;
+	text-align: left;
+	font-weight: bold;
+	min-width: 10px;
+	padding-right: 12px;
+	font-variant-numeric: tabular-nums;
+	align-self: flex-start;
+	background-image: linear-gradient(to bottom, #107A92, #7A7D68);
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+/* Element separation */
+ol li+li {
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+	
+/* Footer */
+.footer {
+		background-color: #B1EAE8;
+		color: #107A92;
+	}
