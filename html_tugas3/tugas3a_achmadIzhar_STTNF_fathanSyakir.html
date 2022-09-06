@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="#">
+            <table border="0" align="center" cellpadding="15" width="40%">
+                <thead>
+                    <tr style="background-color: #F7D4C8">
+                        <th colspan="2">Form Register Produk</th>
+                    </tr>
+                </thead>
+
+                <tbody style="background-color: #FDFAF3">
+                    <tr>
+						<td width="25%"><label>Nama Produk</label></td>
+						<td>
+							<input type="text" name="nama_produk" value="" size="35" maxlength="100" required/>
+						</td>
+					</tr>
+                    <tr>
+						<td><label>Jenis Produk</label></td>
+						<td>
+							<select name="jenis_produk" required>
+								<option value="">-- Kategori Produk --</option>
+								<option value="Furnitur">Furnitur</option>
+								<option value="Elektronik">Elektronik</option>
+								<option value="Pangan">Pangan</option>
+								<option value="Kosmetik">Kosmetik</option>
+								<option value="Tanaman">Tanaman</option>
+							</select>
+						</td>
+					</tr>
+                    <tr>
+						<td width="25%"><label>Harga</label></td>
+						<td>
+							<input type="number" name="harga" value="" size="50" maxlength="100" required min="1"/>
+						</td>
+					</tr>
+                    <tr>
+						<td width="25%"><label>Stok</label></td>
+						<td>
+							<input type="number" name="stok" value="" size="50" maxlength="100" required min="1"/>
+						</td>
+					</tr>
+                    <tr>
+						<td width="25%"><label for="myfile">Photo</label></td>
+						<td>
+							<input type="file" id="myfile" name="myfile">
+						</td>
+					</tr>
+                </tbody>
+                <tfoot>
+                    <tr style="background-color: #F7D4C8;">
+                        <th colspan="2">
+                            <input type="submit" name="submit" value="Kirim" />&nbsp;&nbsp;
+                            <input type="reset" name="cancel" value="Batal" />
+                        </th>
+                    </tr>
+                </tfoot>
+        </form>
+    </body>
+</html> 
