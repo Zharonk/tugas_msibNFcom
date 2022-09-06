@@ -1,0 +1,46 @@
+body{
+    background-color:#66DDDD;
+    margin:2cm 3cm 2cm 3cm;
+}
+
+hr{
+	border-color:#B1EAE8;
+	border-style:dotted;
+}
+
+p{
+    color:#107A92;
+    size: 14px; 
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+}
+
+h1{
+    color:#107A92;
+}
+
+h2{
+    color:#107A92  ;
+}
+
+ul{
+    list-style-image: url("img/nyanyi.gif");
+}
+
+li{
+    list-style-image: url('img/jempol.gif');
+    color:#7A7D68  ;
+    text-align: justify;
+}
+
+fieldset, legend{
+	border:#B1EAE8 solid 2px;	
+}
+
+legend{
+    color:#B1EAE8;
+    padding: 5px;
+    font-size:20pt;
+	text-transform:uppercase;
+}
+
